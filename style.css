@@ -35,3 +35,45 @@ svg:hover {
     width: 33px;
     border-radius: 50%;
 }
+/* container */
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.logo {
+    width: 272px;
+    height: 92px;
+}
+/* footer */
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.curr-country {
+    background-color: rgb(243, 243, 243);
+    padding: 15.5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    padding-left: 40px;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+}
+.footer ul {
+    display: flex;    
+    margin-right: 30px;
+}
+.footer ul li {
+    font-size: 15px;
+    margin-left: 30px;  
+}
+.footer ul li a {
+    color: rgba(0, 0, 0, 0.5);
+}
